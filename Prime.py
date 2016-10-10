@@ -1,9 +1,12 @@
-def is_prime(number):
-    for num in range(number):
-        for p in range(2,num):
-            if (num%p==0):
-                break
-            else:
-                print (num)
-                break
+def is_prime(n):
+    prime_numbers = [2, 3]
+    for num in range(4, n):
+        status = False
+        for prime in prime_numbers:
+            if num % prime == 0:
+                status = True
+        if status == False:
+            prime_numbers.append(num)
 
+    for n in prime_numbers:
+        print (n)

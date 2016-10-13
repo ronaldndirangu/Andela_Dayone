@@ -1,3 +1,3 @@
 # Andela_Dayone
 
-Exercises from Andela day one clinic and a simple website
+Exercises from Andela day one clinic and OOP example
